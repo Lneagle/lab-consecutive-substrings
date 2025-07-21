@@ -1,2 +1,9 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+The solution is to loop through the string, and for each character, to list the substring from that character to the end of the string.  So:
+
+For (each character in the string) {
+    For (each length of substring from 1 to the remaining length of the string) {
+        List the substring
+    }
+}
+
+This solution is O(n^2).
